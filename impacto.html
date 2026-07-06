@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boca Juniors - Impacto Ambiental</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html">
+            <img src="img/logo.png" alt="Escudo de Boca" class="logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="plantel.html">Plantel</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="impacto.html" class="activo">Impacto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Impacto Social y Ambiental</h1>
+        <p>A partir de nuestra participacion en la charla <strong>ReConversar</strong>, investigamos las acciones colectivas y el cuidado del ambiente. Presentamos los datos reales del grupo <em>Somos Río Sustentable</em> en su labor de saneamiento del Río Suquía:</p>
+
+        <!-- Contenedor para que la tabla sea responsive en celulares -->
+        <div class="tabla-contenedor">
+            <table class="tabla-datos">
+                <!-- Requisito de Accesibilidad: Caption descriptivo -->
+                <caption>Evolución de voluntarios y metros recuperados por la organización "Somos Río Sustentable" en el Río Suquía</caption>
+                
+                <thead>
+                    <tr>
+                        <!-- Requisito Rowspan: Agrupa la organizacion en las filas de datos -->
+                        <th rowspan="2">Organización</th>
+                        <th rowspan="2">Fase / Período</th>
+                        <!-- Requisito Colspan: Agrupa metricas sobre las sub-columnas -->
+                        <th colspan="3" class="text-center">Métricas de Cuidado Ambiental</th>
+                    </tr>
+                    <tr>
+                        <th>Voluntarios</th>
+                        <th>Metros Limpios</th>
+                        <th>Residuos Gestionados y Logros</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <!-- Celda agrupada con rowspan para las 3 fases -->
+                        <td rowspan="3" class="celda-org">Somos Río Sustentable</td>
+                        <td>Fase Inicial (Semana 1)</td>
+                        <td>7 amigos</td>
+                        <td>250 metros</td>
+                        <td>Retiro de plásticos flotantes y botellas pet.</td>
+                    </tr>
+                    <tr>
+                        <td>Crecimiento (Mes 1)</td>
+                        <td>35 voluntarios</td>
+                        <td>1.200 metros</td>
+                        <td>Clausura del primer microbasural crítico.</td>
+                    </tr>
+                    <tr>
+                        <td>Consolidación (Mes 2)</td>
+                        <td>50 voluntarios</td>
+                        <td>2.500 metros</td>
+                        <td>Clausura de 3 microbasurales y recolección de neumáticos.</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Totales Logrados</td>
+                        <td>50 voluntarios</td>
+                        <td>2.500 metros</td>
+                        <td>3 microbasurales cerrados definitivamente</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <section class="usabilidad-explicacion">
+            <h3>Sobre los Datos Visualizados</h3>
+            <p>La tabla muestra la progresion real del grupo ambientalista: iniciaron siendo solo 7 amigos con un alcance de 250 metros de rio, y crecieron hasta conformar un equipo de 50 voluntarios activos que lograron recuperar 2.500 metros y eliminar 3 microbasurales.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Trabajo Práctico N° 5 - Tomás Brusa - 6° G - Escuela Técnica</p>
+    </footer>
+
+</body>
+</html>
